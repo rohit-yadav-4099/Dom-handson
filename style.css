@@ -1,0 +1,111 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #281414;
+}
+
+.playagaincontainer{
+    position: relative;
+    top: 2rem;
+    left: 2rem;
+}
+
+#playagainbutton{
+    background-color: #FFFFFF;
+    color: #222222;
+    padding: 15px 25px 15px 25px;
+    font-size: large;
+    border-radius: 5px;
+}
+
+#between1-100{
+    position: relative;
+    top: -4rem;
+    left: 75rem;
+}
+
+#between{
+    color: #FFFFFF;
+    font-size: xx-large;
+}
+
+#numbertextp{
+    position: relative;
+    top: -1rem;
+    left: 40rem;
+}
+
+#numbertext{
+    color: #FFFFFF;
+    font-size: xx-large;
+}
+
+#hrlinep{
+    position: relative;
+    top: -6rem;
+    z-index: 1;
+}
+
+#hrline{
+    height: 5px;
+    background-color: #FFFFFF;
+}
+
+#box{
+    width: 125px;
+    height: 125px;
+    background-color: #FFFFFF;
+    text-align: center;
+    position: relative;
+    top: -1rem;
+    left: 45rem;
+    border-radius: 5px;
+    z-index: 2;    
+}
+
+#ques{
+    padding: 2rem;
+}
+
+#textchange{
+    color: #FFFFFF;
+    font-size: xx-large;
+    position: relative;
+    top: -8rem;
+    left: 60rem;
+}
+
+#parentchan{
+    position: relative;
+    top: -8rem;
+    left: 60rem;
+}
+
+.common{
+    color: #FFFFFF;
+    font-size: larger;
+}
+
+#button{
+    height: 70px;
+    width: 150px;
+    font-size: x-large;
+    position: relative;
+    border-radius: 5px;
+    top: 8rem;
+    left: 2rem;
+}
+
+#input{
+    background-color: #281414;
+    border: 5px double #FFFFFF;
+    position: relative;
+    border-radius: 3px;
+    color: #FFFFFF;
+    font-size: xx-large;
+    text-align: center;
+    height: 100px;
+    width: 250px;
+    top: 1rem;
+    left: 15rem;
+}

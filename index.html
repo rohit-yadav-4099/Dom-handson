@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+      body{
+        padding: 10px;
+      }
+
+        .container {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          
+        }
+    
+        .card {
+          width: 200px;
+          height: 150px;
+          background-color: lightgray;
+          margin: 10px;
+          padding: 10px;
+          text-align: center;
+          font-size: larger;
+          padding-top: 50px;
+          box-sizing: border-box;
+        }
+      </style>
+</head>
+<body>
+
+  <!-- question NO 1 -->
+
+    <h2>Q1. Write the code to access element which is having id as "text"</h2>
+
+    <pre>
+       html: <h1 id="text">text</h1>
+
+        javascript: {var text = document.getElementById("text");
+                        text.textContent = "to modify text"; 
+                    }
+    </pre>
+
+<!-- question NO 2 -->
+
+    <h2>Q2. Write the code to access element which is having tag as "h1"</h2>
+
+    <pre>
+        html: <h1>text</h1>
+ 
+         javascript: {var text = document.getElementsByTagName("h1");
+                        text.textContent = "to modify text"; 
+                     }
+     </pre>
+
+<!-- question NO 3 -->
+
+     <h2>Q3. Write the code to access element which is having class as "box"</h2>
+
+    
+     <pre>
+        html: <h1 class="box">text</h1>
+ 
+         javascript: {var text = document.getElementsByClassName("box");
+         text.textContent = "to modify text"; 
+                     }
+     </pre>
+
+
+<!-- question No 4 -->
+
+     <h2>Q4. Change the heading from ""Hello"" to ""Hello World"" using DOM functions</h2>
+     <h1>Hello </h1>
+     <h1 id="hello">hello</h1>
+     <button onclick="clickFunction()">click here</button>
+     <br>
+     <br>
+     <br>
+
+     
+<!-- question NO 5 -->
+
+     <h2>Q5. Create an HTML page having content as Hello world and a button named Replace Text. When user will click on this button page content should be changed to "Welcome to Elevation academy"</h2>
+
+     <h1 id="helloworld">Hello World</h1>
+     <button onclick="replacetext()">Replace Text</button>
+     <br>
+     <br>
+     <br>
+
+<!-- question NO 6 -->
+
+     <h2>Q6.  Add one style attribute and give text color as red and id attribute and give the id value as ""heading"" in the above given h1 tag using DOM functions</h2>
+     
+     <h1>Hello </h1>
+
+     <h1>Hello</h1>
+  
+     <br>
+     <br>
+     <br>
+
+
+<!-- question No 7 -->
+
+     <h2>Q7. Create three cards on HTML page and arrange them using flex property in row or horizontal direction and also create button at the bottom named "Change Flex direction". When user clicks on this button, the cards arrangement should be changed to vertical direction.</h2>
+
+     <div class="container">
+        <div class="card">Card 1</div>
+        <div class="card">Card 2</div>
+        <div class="card">Card 3</div>
+      </div>
+      <button onclick="changeFlexDirection()">Change Flex direction</button>
+
+      <br>
+     <br>
+     <br>
+<!-- question NO 8 -->
+
+<h2>Q8. What’s the difference between window vs document?</h2>
+
+<pre>
+  window: window object represents the browser window or tab in which the web page is loaded. It serves as the global object in the browser's JavaScript environment.
+  The window object provides access to various properties, methods, and events related to the browser window, including navigation, history, location, timers, and more.
+
+  Ex: window.document(), window.promt(),window.setTimeout()....
+
+
+  document: The document object represents the HTML document loaded in the browser window. It is a property of the window object and provides access to the content and elements of the document. 
+  The document object allows you to manipulate the structure, style, and content of the web page.
+
+  Ex: document.getElementById(), document.getElementsByClassName(), and document.querySelector()......
+
+  In summary, the window object represents the browser window or tab, providing access to browser-related functionalities, 
+  while the document object represents the HTML document loaded in the window, allowing manipulation of the document's structure and content.
+</pre>
+
+<br>
+     <br>
+     <br>
+
+<!-- question NO 9 -->
+
+      <h2>Q9. Write code to implement timer clock using JS -- display HH:MM:SS -- the time should keep updating every second</h2>
+
+      <div class="clock">
+        <h1 id="demo"></h1>
+     </div> 
+
+     <br>
+     <br>
+<!-- question No 10 -->
+
+     <h2>Q10. Guess the number game</h2>
+
+     <a href="./indexguessNumber.html">Click here to enter the game</a>
+     <br>
+     <br>
+     <br>
+    <script src="./script.js"></script>
+</body>
+</html>
