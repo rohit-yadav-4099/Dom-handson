@@ -1,4 +1,5 @@
-//
+
+
 //question 4
 
 function clickFunction() {
@@ -35,8 +36,3 @@ function changeFlexDirection() {
 }
 
 setInterval(clock,1000);
-
-}
-
-
-
